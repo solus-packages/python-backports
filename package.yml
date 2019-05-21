@@ -1,8 +1,8 @@
 name       : python-backports
-version    : 1.0
-release    : 1
+version    : '1.0'
+release    : 2
 source     :
-    - https://solus-project.com/sources/python-backports-1.0.tar.xz : 67fe321a004af66ece986ba6a6e0c6bfb975b06be94b25e2c71f05e243879e82
+    - https://getsol.us/sources/python-backports-1.0.tar.xz : 67fe321a004af66ece986ba6a6e0c6bfb975b06be94b25e2c71f05e243879e82
 homepage   : https://pypi.python.org/pypi/backports
 license    : Public-Domain
 component  : programming.python
@@ -10,7 +10,7 @@ summary    : Namespace for backported Python features
 description: |
     The backports namespace is a namespace reserved for features backported
     from the Python standard library to older versions of Python 2.
-    
+
     Packages that exist in the backports namespace should not provide their
     own backports/__init__.py, but instead require this package.
 build      : |
